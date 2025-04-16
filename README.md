@@ -16,18 +16,14 @@ Con esta información, será posible tomar una decisión fundamentada sobre qué
 
 ## 📁 Estructura del Proyecto
 
-- `base-de-datos-challenge1-latam/`  
-  Contiene los archivos CSV con los datos de cada tienda:
-  - `tienda_1.csv`
-  - `tienda_2.csv`
-  - `tienda_3.csv`
-  - `tienda_4.csv`
-
-- `AluraStoreLatam.ipynb`  
-  Notebook principal que contiene todo el análisis en Python.
-
-- `README.md`  
-  Archivo con la información del proyecto.
+```bash
+alura-store/
+├── AluraStoreLatam.ipynb              # Cuaderno con el análisis de datos
+├── base-de-datos-challenge1-latam/    # Archivos CSV con la data de las 4 tiendas
+├── venv/                              # Entorno virtual de Python (no se sube al repo)
+├── .gitignore                         # Archivo que define qué ignorar en Git
+└── README.md                          # Documentación del proyecto
+```
 
 ## 📈 Ejemplos de Gráficos e Insights
 
@@ -38,13 +34,22 @@ Con esta información, será posible tomar una decisión fundamentada sobre qué
 - Tabla con el promedio de evaluación por cliente agrupado por tienda.
 - Ranking de productos más vendidos por tienda.
 
-## ▶️ Cómo ejecutar el análisis
+## ▶️ Cómo ejecutar el análisis (CON UBUNTU/DEBIAN)
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/alura-store.git
+   git clone https://github.com/seiler18/AluraStoreJS.git
    cd alura-store
 
-2. Asegúrate de tener las librerías necesarias instaladas: 
+2. Instala el paquete para crear entornos virtuales (si no lo tienes)
     ```bash
-    pip install pandas matplotlib seaborn
+    sudo apt install python3.12-venv
+
+3. (Opcional pero recomendado) Crea un entorno virtual:
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate
+
+4. Asegúrate de tener las librerías necesarias instaladas: 
+    ```bash
+    pip install pandas matplotlib seaborn ipykernel jupyter

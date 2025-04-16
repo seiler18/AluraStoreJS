@@ -1,0 +1,26 @@
+# Ignorar entornos virtuales
+venv/
+.venv/
+
+# Ignorar archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar carpetas y archivos de VSCode
+.vscode/
+
+# Archivos de Jupyter
+.ipynb_checkpoints/
+
+# Ignorar __pycache__ y archivos compilados
+__pycache__/
+*.py[cod]
+*.so
+
+# Archivos temporales
+*.log
+*.tmp
+*.bak
+
+# Configuración personal
+.env
