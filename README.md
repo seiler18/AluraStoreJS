@@ -1,5 +1,22 @@
+
 <details>
-<summary> 🛍️ Alura Store - Análisis de Rendimiento de Tiendas</summary>
+<summary> Aprendiendo hacer ETL (2DO MODULO)</summary>
+
+## Aca ira la descripcion del nuevo desarrollo
+
+
+
+</details>
+
+
+---
+<details>
+<summary> Modelado de Datos con Python (1 ER MODULO)</summary>
+
+### 🛍️ Alura Store - Análisis de Rendimiento de Tiendas
+
+## Primer proyecto de analisis ocupando pandas,matplotlib,seaborn 
+
 Este proyecto tiene como objetivo analizar el rendimiento de **cuatro tiendas** con el fin de ayudar al Sr. Juan a tomar una decisión estratégica: **vender la tienda con menor desempeño** para invertir en un nuevo negocio.
 
 ## 📌 Propósito del Análisis
@@ -178,3 +195,8 @@ Luego de considerar todos los factores analizados, se concluye que la mejor opci
 
 ---
 </details>
+
+---
+
+
+
