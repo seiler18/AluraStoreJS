@@ -1,5 +1,5 @@
-# 🛍️ Alura Store - Análisis de Rendimiento de Tiendas
-
+<details>
+<summary> 🛍️ Alura Store - Análisis de Rendimiento de Tiendas</summary>
 Este proyecto tiene como objetivo analizar el rendimiento de **cuatro tiendas** con el fin de ayudar al Sr. Juan a tomar una decisión estratégica: **vender la tienda con menor desempeño** para invertir en un nuevo negocio.
 
 ## 📌 Propósito del Análisis
@@ -17,12 +17,13 @@ Con esta información, será posible tomar una decisión fundamentada sobre qué
 ## 📁 Estructura del Proyecto
 
 ```bash
-alura-store/
-├── AluraStoreLatam.ipynb              # Cuaderno con el análisis de datos
-├── base-de-datos-challenge1-latam/    # Archivos CSV con la data de las 4 tiendas
-├── venv/                              # Entorno virtual de Python (no se sube al repo)
-├── .gitignore                         # Archivo que define qué ignorar en Git
-└── README.md                          # Documentación del proyecto
+AluraLatamCourse
+    AluraStore/
+    ├── AluraStoreLatam.ipynb              # Cuaderno con el análisis de datos
+    ├── base-de-datos-challenge1-latam/    # Archivos CSV con la data de las 4 tiendas
+    ├── venv/                              # Entorno virtual de Python (no se sube al repo)
+    ├── .gitignore                         # Archivo que define qué ignorar en Git
+README.md                          # Documentación del proyecto
 ```
 
 ## 📈 Ejemplos de Gráficos e Insights
@@ -176,3 +177,4 @@ Luego de considerar todos los factores analizados, se concluye que la mejor opci
 ✅ El Sr. Juan debería vender sus productos en **Tienda 1**, ya que esta demuestra un rendimiento comercial robusto, liderazgo en ingresos y gran demanda de productos, lo que representa la mayor oportunidad de éxito para sus ventas.
 
 ---
+</details>
