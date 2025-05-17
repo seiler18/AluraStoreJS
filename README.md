@@ -2,9 +2,17 @@
 <details>
 <summary> Aprendiendo hacer ETL (2DO MODULO)</summary>
 
-## Aca ira la descripcion del nuevo desarrollo
+## NumPy
 
+NumPy, una abreviatura de Numerical Python, es una biblioteca de código abierto de Python para computación científica, un campo de estudio que utiliza recursos computacionales para comprender y resolver problemas. Esta biblioteca permite trabajar con la manipulación de objetos array multidimensionales, así como con sus derivados, como matrices, secuencias y otros. Además de eso, también posee una amplia variedad de operaciones rápidas con los arrays, incluyendo operaciones matemáticas y lógicas, manipulación de formato, ordenación y selección, herramientas de estadística y cálculo, y mucho más.
 
+## Pandas
+
+Pandas es una biblioteca de código abierto en Python utilizada para el análisis de datos. Proporciona herramientas poderosas y fáciles de usar para la manipulación y análisis de datos en formatos de tablas, como CSV, Excel, SQL y muchos otros.
+
+Con Pandas, podemos cargar datos desde diversas fuentes en un objeto llamado DataFrame, que es una tabla de datos similar a una hoja de cálculo de Excel. Luego, podemos trabajar con estos datos realizando operaciones como filtrar, ordenar, agregar y transformar.
+
+La biblioteca Pandas es ampliamente utilizada en aplicaciones de ciencia de datos, aprendizaje automático, finanzas y análisis empresarial. Es una herramienta esencial para profesionales que trabajan con datos, como analistas de datos, científicos de datos e ingenieros de datos.
 
 </details>
 
