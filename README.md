@@ -14,6 +14,19 @@ Con Pandas, podemos cargar datos desde diversas fuentes en un objeto llamado Dat
 
 La biblioteca Pandas es ampliamente utilizada en aplicaciones de ciencia de datos, aprendizaje automático, finanzas y análisis empresarial. Es una herramienta esencial para profesionales que trabajan con datos, como analistas de datos, científicos de datos e ingenieros de datos.
 
+## Matplotlib
+Matplotlib es una biblioteca de Python utilizada para crear visualizaciones gráficas de datos. Permite generar gráficos, diagramas y visualizaciones interactivas de manera sencilla y personalizable. Con Matplotlib, los usuarios pueden crear gráficos de líneas, barras, dispersión, histogramas y muchos otros tipos de visualizaciones.
+Matplotlib es ampliamente utilizado en el ámbito de la ciencia de datos, análisis de datos y visualización de información. Proporciona una interfaz intuitiva y flexible para crear gráficos de alta calidad y personalizables, lo que facilita la comprensión y presentación de datos complejos.
+
+## Seaborn
+Seaborn es una biblioteca de visualización de datos basada en Matplotlib que proporciona una interfaz más sencilla y atractiva para crear gráficos estadísticos. Seaborn se centra en la visualización de datos estadísticos y ofrece una amplia gama de gráficos predefinidos, como gráficos de dispersión, gráficos de barras, gráficos de violín, mapas de calor y más.
+Seaborn se integra fácilmente con Pandas, lo que permite crear visualizaciones directamente a partir de DataFrames. Además, Seaborn proporciona una serie de funciones para personalizar los gráficos, como la elección de paletas de colores, estilos de trazado y etiquetas.
+
+##Pyplot
+Pyplot es un módulo de Matplotlib que proporciona una interfaz similar a MATLAB para crear gráficos y visualizaciones de datos. Permite crear gráficos de manera sencilla y rápida, utilizando una sintaxis intuitiva y fácil de entender.
+Pyplot ofrece una amplia gama de funciones para crear gráficos de líneas, barras, dispersión, histogramas y muchos otros tipos de visualizaciones. También permite personalizar los gráficos con etiquetas, títulos, leyendas y estilos de trazado.
+
+
 </details>
 
 
