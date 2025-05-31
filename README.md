@@ -26,6 +26,12 @@ Seaborn se integra fácilmente con Pandas, lo que permite crear visualizaciones 
 Pyplot es un módulo de Matplotlib que proporciona una interfaz similar a MATLAB para crear gráficos y visualizaciones de datos. Permite crear gráficos de manera sencilla y rápida, utilizando una sintaxis intuitiva y fácil de entender.
 Pyplot ofrece una amplia gama de funciones para crear gráficos de líneas, barras, dispersión, histogramas y muchos otros tipos de visualizaciones. También permite personalizar los gráficos con etiquetas, títulos, leyendas y estilos de trazado.
 
+#Plotly
+Plotly es una biblioteca de visualización de datos interactiva y de código abierto que permite crear gráficos y visualizaciones dinámicas en Python. A diferencia de Matplotlib y Seaborn, Plotly se centra en la creación de gráficos interactivos y visualizaciones web, lo que permite a los usuarios explorar los datos de manera más intuitiva.
+Plotly ofrece una amplia gama de gráficos, como gráficos de líneas, barras, dispersión, mapas de calor, gráficos de burbujas y muchos otros. Además, permite crear visualizaciones 3D y gráficos animados.
+Plotly se integra fácilmente con Pandas y NumPy, lo que facilita la creación de visualizaciones a partir de DataFrames y arrays. También proporciona una interfaz web interactiva que permite a los usuarios explorar los gráficos y realizar zoom, desplazamiento y selección de datos.
+
+
 
 </details>
 
