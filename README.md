@@ -1,5 +1,53 @@
 
 <details>
+
+<summary>Desafio : Telecom X - Análisis de Evasión de Clientes </summary>
+
+
+## Informe de Análisis de Evasión de Clientes (Churn)
+🔹 Introducción
+El objetivo de este análisis es entender los factores que influyen en la evasión de clientes (Churn) para una empresa de servicios. La evasión representa la pérdida de clientes y es un problema crítico que impacta directamente en los ingresos y la estabilidad del negocio. A través del análisis exploratorio de datos y la visualización, buscamos identificar patrones y características comunes en clientes que han cancelado el servicio, con el fin de orientar estrategias para reducir esta tasa.
+
+🔹 Limpieza y Tratamiento de Datos
+Se importaron los datos originales y se realizó una revisión exhaustiva para detectar valores nulos, duplicados y formatos inconsistentes. Se detectó que la columna Charges contenía datos en formato diccionario, los cuales fueron expandidos para su análisis. También se corrigieron tipos de datos para las columnas numéricas y se creó una nueva variable llamada Cuentas_Diarias, que representa la facturación diaria promedio a partir de la facturación mensual.
+
+Se verificó que no existieran valores nulos ni duplicados en el dataset final, asegurando la calidad de los datos para el análisis posterior.
+
+🔹 Análisis Exploratorio de Datos
+Distribución general del Churn
+Se analizó la proporción de clientes que permanecieron versus los que cancelaron el servicio, mostrando que un X% de clientes cancelaron (incluir porcentaje real).
+
+Análisis según variables categóricas
+
+Se exploraron variables como género, tipo de contrato y método de pago para evaluar su relación con la evasión.
+
+Se observó que los clientes con contrato tipo Month-to-month presentan una tasa de evasión más alta.
+
+Los métodos de pago automáticos muestran menor tendencia a cancelación.
+
+Análisis según variables numéricas
+
+Se comparó la distribución de variables numéricas relevantes como Total gastado y tenure entre clientes que cancelaron y no.
+
+Clientes que cancelaron tienden a tener menor tiempo de permanencia (tenure) y menor gasto total.
+
+La creación de la variable Cuentas_Diarias aportó una perspectiva más granular del gasto de los clientes.
+
+🔹 Conclusiones e Insights
+El tipo de contrato y método de pago son factores importantes en la evasión.
+
+La permanencia y el gasto total también diferencian significativamente a clientes que cancelan.
+
+Los clientes con contratos de corto plazo y sin métodos automáticos de pago requieren mayor atención para retenerlos.
+
+El análisis diario del gasto (Cuentas_Diarias) puede facilitar la detección temprana de clientes en riesgo.
+
+
+</details>
+
+
+---
+<details>
 <summary> Aprendiendo hacer ETL (2DO MODULO)</summary>
 
 ## NumPy
@@ -30,9 +78,6 @@ Pyplot ofrece una amplia gama de funciones para crear gráficos de líneas, barr
 Plotly es una biblioteca de visualización de datos interactiva y de código abierto que permite crear gráficos y visualizaciones dinámicas en Python. A diferencia de Matplotlib y Seaborn, Plotly se centra en la creación de gráficos interactivos y visualizaciones web, lo que permite a los usuarios explorar los datos de manera más intuitiva.
 Plotly ofrece una amplia gama de gráficos, como gráficos de líneas, barras, dispersión, mapas de calor, gráficos de burbujas y muchos otros. Además, permite crear visualizaciones 3D y gráficos animados.
 Plotly se integra fácilmente con Pandas y NumPy, lo que facilita la creación de visualizaciones a partir de DataFrames y arrays. También proporciona una interfaz web interactiva que permite a los usuarios explorar los gráficos y realizar zoom, desplazamiento y selección de datos.
-
-
-
 </details>
 
 
